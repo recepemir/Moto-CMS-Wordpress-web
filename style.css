@@ -1,0 +1,519 @@
+﻿
+
+
+
+
+.navbar-nav li
+{
+
+	font-size:12px;
+}
+
+#menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+ 
+}
+#axılan{
+padding:10px;
+}
+ 
+#axılan a {
+	
+display: block;
+color:black;
+text-decoration:none;
+transition:all .3s ease-in;
+}
+#axılan a:hover{
+color:#745CF9;
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cerceve {
+	height:120px;
+width: 1300px;
+background-color:#0E1015;
+display: table;
+margin: 0px auto;
+}
+
+.icerik {
+	
+display: table-cell;
+vertical-align: middle;
+text-align: center;
+}
+
+
+
+
+#slideer {
+
+  
+  
+  
+  	background-image: url("https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1451417379553-15d8e8f49cde-768x546.jpg");
+	  height: 65%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+	
+}
+#carouselContent
+{
+     height: 65%;
+	  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+
+a.ghost{
+  color:white;
+  border:1px solid white;
+  padding:15px 45px;
+  text-decoration:none;
+}
+
+
+a.ghost:hover{
+	background-color:white;
+	transition:all .3s ease-in;
+     border: 2px solid  white;
+    color: black;
+}
+a.ghost.inverted{
+	background-color:#745CF9;
+  color:white;
+  border:1px solid #745CF9;
+}
+a.ghost.inverted:hover{
+	transition:all .3s ease-in;
+	 border: 2px solid  #6D5ADB;
+    background-color:#5D47D7;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.buton1 {
+    border: none;
+    color: white;
+    background-color: #745CF9;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #745CF9;
+}
+ 
+.buton1:hover {
+    color: #4CAF50;
+    background-color: #6D5ADB;
+    border: 2px solid #6D5ADB;
+}
+
+
+
+
+
+.buton2 {
+    border: 2px solid  #6D5ADB;
+    color: #4CAF50;
+    padding: 10px 20px;
+}
+ 
+.buton2:hover {
+    color: black;
+    background-color: white;
+}
+.bodyaa{
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+	
+  background-image: url("https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/03/photo-1443527216320-7e744084f5a7-2-768x513.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+#hero-text {
+	width:1000px;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+
+
+
+
+.hero-image1 {
+	
+  background-image: url("https://colorlib.com/shapely/wp-content/uploads/sites/12/2016/12/photo-1452723312111-3a7d0db0e024.jpg");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text1 {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.navbar-nav li
+{
+
+	font-size:12px;
+}
+
+#menu {
+list-style-type: none;
+margin: 0;
+padding: 0;
+
+ 
+}
+#axılan{
+padding:10px;
+}
+ 
+#axılan a {
+	
+display: block;
+color:black;
+text-decoration:none;
+transition:all .3s ease-in;
+}
+#axılan a:hover{
+color:#745CF9;
+
+}
+ 
+
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,700);
+.snip1273 {
+  font-family: 'Raleway', Arial, sans-serif;
+  position: relative;
+  width: 100%;
+  color: #ffffff;
+  text-align: left;
+  background-color: #000000;
+  font-size: 16px;
+}
+.snip1273 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+}
+.snip1273 img {
+  position: relative;
+  max-width: 100%;
+  vertical-align: top;
+}
+.snip1273 figcaption {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0;
+  padding: 20px 30px;
+}
+.snip1273 figcaption:before,
+.snip1273 figcaption:after {
+  width: 1px;
+  height: 0;
+}
+.snip1273 figcaption:before {
+  right: 0;
+  top: 0;
+}
+.snip1273 figcaption:after {
+  left: 0;
+  bottom: 0;
+}
+.snip1273 h3,
+.snip1273 p {
+  line-height: 1.5em;
+}
+.snip1273 h3 {
+  margin: 0 0 5px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.snip1273 p {
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0 0 15px;
+}
+.snip1273 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 1;
+}
+.snip1273:before,
+.snip1273:after,
+.snip1273 figcaption:before,
+.snip1273 figcaption:after {
+  position: absolute;
+  content: '';
+  background-color: #ffffff;
+  z-index: 1;
+  -webkit-transition: all 0.4s ease-in;
+  transition: all 0.4s ease-in;
+  opacity: 0.8;
+}
+.snip1273:before,
+.snip1273:after {
+  height: 1px;
+  width: 0%;
+}
+.snip1273:before {
+  top: 0;
+  left: 0;
+}
+.snip1273:after {
+  bottom: 0;
+  right: 0;
+}
+.snip1273:hover img,
+.snip1273.hover img {
+  opacity: 0.4;
+}
+.snip1273:hover figcaption,
+.snip1273.hover figcaption {
+  opacity: 1;
+}
+.snip1273:hover figcaption:before,
+.snip1273.hover figcaption:before,
+.snip1273:hover figcaption:after,
+.snip1273.hover figcaption:after {
+  height: 100%;
+}
+.snip1273:hover:before,
+.snip1273.hover:before,
+.snip1273:hover:after,
+.snip1273.hover:after {
+  width: 100%;
+}
+.snip1273:hover:before,
+.snip1273.hover:before,
+.snip1273:hover:after,
+.snip1273.hover:after,
+.snip1273:hover figcaption:before,
+.snip1273.hover figcaption:before,
+.snip1273:hover figcaption:after,
+.snip1273.hover figcaption:after {
+  opacity: 0.1;
+}
+
+
+
+
+
+.btn-1 {
+transition:all .3s ease-in;
+	font-size:15px;
+	width:195px;
+	height:55px;
+    border: none;
+    color: white;
+    background-color:#651FFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #651FFF;
+}
+ 
+.btn-1:hover {
+    
+    background-color: #7C4DFF;
+    border: 2px solid #7C4DFF;
+}
+ 
+.btn-2 {
+	transition:all .3s ease-in;
+    border: 2px solid #4CAF50;
+    background-color: white;
+    color: #4CAF50;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.btn-3 {
+
+	font-size:15px;
+	width:195px;
+	height:55px;
+    border: none;
+    color: white;
+    background-color:#651FFF;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: 2px solid #651FFF;
+}
+ 
+.btn-3:hover {
+    transition:all .3s ease-in;
+    background-color: #7C4DFF;
+    border: 2px solid #7C4DFF;
+	
+}
+ 
+.btn-3 {
+	
+
+   color:white;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+ 
+
+
+
+.yukarikaydir {
+	transition:all .3s ease-in;
+	color:white;
+    text-decoration:none;
+	font-size:50px; 
+}
+
+
+
+
+
+
+
+
+ul {
+color:white;
+list-style-type: none;
+margin: 0;
+padding: 0;
+ 
+}
+li{
+float:left;
+}
+ 
+li a {
+
+color:white;
+transition:all .3s ease-in;
+text-align: center;
+
+text-decoration:none;
+
+}
+li a:hover{
+	color:#5E35B1;
+text-decoration: none;
+}
+
+
+
+
+.simge1 {
+	font-size:20px;
+color:white;
+list-style-type: none;
+margin: 0;
+padding: 0;
+ 
+}
+.simge2{
+	
+float:left;
+}
+ 
+.simge2 a {
+transition:all .3s ease-in;
+padding:10px;
+color:white;
+
+text-align: center;
+
+text-decoration:none;
+
+}
+.simge2 a:hover{
+	color:#5E35B1;
+text-decoration: none;
+}
+
+
+

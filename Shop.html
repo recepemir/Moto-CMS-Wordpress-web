@@ -1,0 +1,639 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js/about-us.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link href="fontawesome-free-5.13.0-web/css/all.css" rel="stylesheet"> <!--load all styles -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <title>Shop</title>
+
+  </head>
+  <body >
+   
+    
+ <nav class="navbar navbar-expand-lg fixed-top border-bottom navbar-private-links" style="background-color: white;">
+      <div class="container">
+      <a class="navbar-brand" href="#" style="font-size: 24px;
+      line-height: 52px;
+      color: #666;
+      font-family:raleway;
+      transition: all 0.3s ease;
+      -webkit-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease;
+      font-weight: 300;">Shapely Demo</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+  
+          <li class="nav-item">
+            <a class="nav-link" href="Home.html">HOME</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="Blog.html">BLOG</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="Portfolio.html">PORTFILO</a>
+          </li>
+          
+          <li class="nav-item hover-dropdown-block">
+            <a class="nav-link dropdown-TOGGLE" href="About-The-Tests.html" role="button" aria-haspopup="true" aria-expanded="false">
+             ABOUT THE TESTS&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+            <ul class="navbar-nav hover-dropdown position-absolute  flex-column  " style="background-color: white; width: 200px; box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);  border: 1px solid rgba(0,0,0,.15);">
+              <li class="nav-link  p-0"><a href="#" class="nav-link w-100 " style=" font-size: 13px !important; padding:0;  padding: 6px 24px;">Page Image Alignment</a></li>
+              <li class="nav-link  p-0"><a href="#" class="nav-link  w-100 "  style="font-size: 13px !important; padding:0; padding: 6px 24px;">Page Markup And Formatting</a></li>
+              <li class="nav-link  p-0"><a href="clearing.html" class="nav-link w-100"  style="font-size: 13px !important; padding:0;  padding: 6px 24px;">Clearing Floats</a></li>
+              <li class="nav-link  p-0"><a href="#" class="nav-link w-100" style="font-size: 13px !important; padding:0;padding: 6px 24px;">Page with comments</a></li>
+              <li class="nav-link  p-0"><a href="Page-disabled.html" class="nav-link w-100"  style="font-size: 13px !important; padding:0;  padding: 6px 24px;font-family:raleway-bold !important;">Page with comments disabled</a></li>
+             
+              </ul>
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link dropdown-TOGGLE" href="Level.html" role="button" aria-haspopup="true" aria-expanded="false">
+             LEVEL 1&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        
+          </li>
+
+          <li class="nav-item ">
+            <a class="nav-link dropdown-TOGGLE" href="Shop.html"role="button" aria-haspopup="true" aria-expanded="false">
+            SHOP&nbsp;&nbsp;&nbsp;&nbsp;<i class="fa fa-angle-down" aria-hidden="true"></i>
+            </a>
+        
+          </li>
+          <li class="nav-item">
+          <a href="#" class="nav-link">
+          <i class="fa fa-search"  style="  color:#5d47d7;" aria-hidden="true"></i>
+</a></li>
+        </ul>
+      </div>
+    </div>
+    </nav>
+
+
+
+<section style="padding-bottom: 100px; padding-top: 150px;  background: #f5f5f5;  ">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h3 style="font-size: 30px; color: #0e1015;  font-weight: 400; font-family:raleway-bold; ">
+                    Archives: Products  </h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<section style="padding: 96px 0;">
+    <div class="container">
+        
+        <div class="row">
+       
+        <div class="col-md-8 display-block-sm">
+            
+            <h1 style="font-size: 60px;
+            line-height: 64px; color: #0e1015; font-family:raleway;">Shop</h1>
+            <form class="float-right" style="font-size: 14px;">
+                <select name="orderby" class="orderby" aria-label="Shop order">
+                    <option value="menu_order" selected="selected">Default sorting</option>
+                    <option value="popularity">Sort by popularity</option>
+                    <option value="rating">Sort by average rating</option>
+                    <option value="date">Sort by latest</option>
+                    <option value="price">Sort by price: low to high</option>
+                    <option value="price-desc">Sort by price: high to low</option>
+                    </select>
+                
+                    <input type="hidden" name="paged" value="1">
+                    </form>
+            <p style="margin: 0 0 1em; color: #8c979e;font-size: 14px;">
+                Showing 1–16 of 23 results</p>
+
+            <div class="container shop-pl-clear">
+                
+                <div class="row mb-5">
+
+                    <div class="col-md-3">
+
+                        <div class="card  " style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                           <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up.jpg" class="card-img-top" style="width: 100%;"  alt="" srcset="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up.jpg 1000w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up-150x150.jpg 150w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up-300x300.jpg 300w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up-768x768.jpg 768w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up-180x180.jpg 180w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up-600x600.jpg 600w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_2_up-50x50.jpg 50w" >
+                            <div class="card-body pl-0">
+                              <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Flying Ninja</h2>
+                              <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                    </a><br>
+<p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                              <a href="#" class="btn btn-shop">satın al</a>
+                            </div>
+                          </div>
+
+                    </div>
+
+                    <div class="col-md-3 ">
+                        <div class="card  " style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front.jpg"  alt="" srcset="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front.jpg 1000w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front-150x150.jpg 150w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front-300x300.jpg 300w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front-768x768.jpg 768w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front-180x180.jpg 180w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front-600x600.jpg 600w, https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_7_front-50x50.jpg 50w" class="card-img-top" style="width: 100%;" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Happy Ninja</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card " style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/hoodie_4_front.jpg" alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Happy Ninja</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card " style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_5_front.jpg" alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Ninja Silhouette</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+
+                </div>
+                
+
+
+                <div class="row mb-5">
+
+                    <div class="col-md-3">
+
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/hoodie_5_front.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="">
+                            <div class="card-body pl-0">
+                              <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Ninja Silhouette</h2>
+                              <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                    </a><br>
+<p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                              <a href="#" class="btn btn-shop">satın al</a>
+                            </div>
+                          </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/hoodie_3_front.jpg" alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Patient Ninja</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_2_front.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Premium Quality</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_3_up.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Premium Quality</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row mb-5">
+
+                    <div class="col-md-3">
+
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_4_front.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                            <div class="card-body pl-0">
+                              <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Ship Your Idea</h2>
+                              <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                    </a><br>
+<p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                              <a href="#" class="btn btn-shop">satın al</a>
+                            </div>
+                          </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/hoodie_7_front.jpg"  alt="" class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Ship Your Idea</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/poster_1_up.jpg"  alt="" class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Ship Your Idea</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">vsatın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card"style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_1_angle.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Woo Album #1</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+                <div class="row mb-5">
+
+                    <div class="col-md-3">
+
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_2_angle.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                            <div class="card-body pl-0">
+                              <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Woo Album #2</h2>
+                              <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                    </a><br>
+<p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                              <a href="#" class="btn btn-shop">satın al</a>
+                            </div>
+                          </div>
+
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_3_angle.jpg"  alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Woo Album #3</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card"style="width: 11em; border: none ; border-radius: 0; background-color: transparent;">
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_5_angle.jpg" alt=""  class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Woo Album #4</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <div class="card" style="width: 11em; border: none ; border-radius: 0; background-color: transparent;" >
+                            <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_1_front.jpg" alt="" class="card-img-top" style="width: 100%;"  alt="" >
+                             <div class="card-body pl-0">
+                               <h2 class="card-title" style="font-size: 1em; padding: .5em 0;">Woo Logo</h2>
+                               <a href="#" style="color: #6b51ff  ;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+                                     </a><br>
+ <p class="card-text" style="color: #77a464; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <span>£12.00</span></p>
+                               <a href="#" class="btn btn-shop">satın al</a>
+                             </div>
+                           </div>
+                    </div>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+        </div>
+
+<div class="col-md-4 display-sm-none">
+
+<div class="card" style="background-color: transparent; border:none;">
+    <div class="card-body pl-0">
+        <h2 class="card-title" style="font-size: 22px;
+        line-height: 24px;
+        font-family: raleway;
+        color: #001c28;
+        margin-bottom: 25px;">Cart</h2>
+        <p class="card-text" style="margin-bottom: 24px; color: #8c979e; font-size: 14px; font-family:raleway-bold;">No products in the cart.</p>
+    </div>
+</div>
+
+
+
+<div class="card " style="width: 24em; background-color: transparent; border:none;" >
+    <div class="card-body pl-0">
+        <h2 class="card-title" style="font-size: 22px;
+        line-height: 24px;
+        font-family: raleway;
+        color: #001c28;
+        margin-bottom: 25px;">Filter by price</h2>
+       <div class="barshop ml-1"> 
+           <span class="barshop-one"></span>
+           <span class="barshop-two"></span>
+       </div><br>
+       <a href="#" class="btn btn-lg btn-first-selection " style="  padding:12px 90px 12px 90px;">FILTER</a>
+       <p class="card-text float-right" style="font-size: .8751em; color: #8c979e; font-family: raleway-bold;">Price: £0 — £40 </p>
+    </div>
+    
+</div>
+
+
+
+<div class="card" style="background-color: transparent; border: none; " >
+  <h2  style="font-size: 22px;line-height: 24px;font-family: raleway;margin-top: 25px;color: #001c28;margin-bottom: 25px;">Products</h2>
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+<p class="card-text" style="color: #8c979e; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <mark style="color: #8c979e;  font-size: .818em;">£12.00</mark></p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" style="width: 10%;">
+</div>
+
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+<p class="card-text" style="color: #8c979e; font-size: .818em;"><del style="opacity: .5;">£15.00</del> <mark style="color: #8c979e;  font-size: .818em;">£12.00</mark></p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt=""  style="width: 10%;">
+</div>
+
+
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+
+<p class="card-text" style="color: #8c979e; font-size: .818em;">£15.00</p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" style="width: 10%;">
+</div>
+
+
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+<p class="card-text" style="color: #8c979e; font-size: .818em;">£15.00</p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" " style="width: 10%;">
+</div>
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+<p class="card-text" style="color: #8c979e; font-size: .818em;">£15.00</p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" style="width: 10%;">
+</div>
+
+</div>
+
+
+<div class="card" style="background-color: transparent; border: none; " >
+  <h2  style="font-size: 22px;
+  line-height: 24px;
+  font-family: raleway;
+  margin-top: 40px;
+  color: #001c28;
+  margin-bottom: 25px;">Recent reviews</h2>
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+          <p class="card-text" style="color: #8c979e; font-size: .818em;">By Don</p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/T_4_front.jpg"alt="" style="width: 10%;">
+</div>
+
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+<p class="card-text" style="color: #8c979e; font-size: .818em;">By Don</p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" style="width: 10%;">
+</div>
+
+
+
+<div class="media">
+  <div class="media-body">
+    <a class="nav-link blog-media-link pl-0" style="color: #8c979e;" href="#">Woo Single #2</a>
+    <a href="#" style="color: #8c979e;"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" style="color: #8c979e !important;" aria-hidden="true"></i>
+          </a>
+          <p class="card-text" style="color: #8c979e; font-size: .818em;">By Don</p>
+
+  </div>
+  <img src="https://colorlib.com/shapely/wp-content/uploads/sites/12/2013/06/cd_6_angle.jpg" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" style="width: 10%;">
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer style="background: #0e1015; padding: 62px 0;" >
+ <div class="container">
+   <div class="row">
+    <div class="col-md-8">
+      <p style="color: #fff; font-family:raleway; line-height: 45px;">
+        Theme by <a href="https://colorlib.com/" target="_blank" title="Colorlib" class="footer-hover-blue">Colorlib</a> Powered by <a href="https://wordpress.org/"  class="footer-hover-blue" target="_blank" title="WordPress.org">WordPress</a>
+    </div>
+    <div class="col-md-4">
+      <ul class="nav justify-content-end footer-social-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fa fa-facebook" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fa fa-linkedin" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fa fa-youtube" aria-hidden="true"></i>
+          </a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link active" href="#"><i class="fa fa-instagram" aria-hidden="true"></i>
+          </a>
+        </li>
+      
+      </ul>
+    </div>
+   </div>
+ </div>
+ <a class="btn btn-footer float-right mr-2" href="#top"><i class="fa fa-angle-up "></i></a>
+</footer>
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/about-us.js"></script>
+</body>
+</html>
